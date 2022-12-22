@@ -1,0 +1,17 @@
+@use '/src/style/variables';
+
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.content {
+  margin-left: variables.$sidebar-width;
+  margin-top: variables.$navbar-height;
+  padding: 10px;
+  flex: 1 1;
+  transition: margin-left 0.2s ease-in-out;
+  overflow: auto;
+}

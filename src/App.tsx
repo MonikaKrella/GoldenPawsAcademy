@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Layout from './layout/layout/Layout';
+import './app.scss';
+import { Route, Routes } from 'react-router-dom';
+import SelfControl from './components/self-control-page/SelfControl';
+import Signals from './components/signals-page/Signals';
+import EyeContact from './components/eye-contact-page/EyeContact';
+import ToyPlay from './components/toy-play-page/ToyPlay';
+import Recall from './components/recall-page/Recall';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <Routes>
+          <Route path="/signals" element={<Signals />} />
+          <Route path="/eye-contact" element={<EyeContact />} />
+          <Route path="/self-control" element={<SelfControl />} />
+          <Route path="/toy-play" element={<ToyPlay />} />
+          <Route path="/recall" element={<Recall />} />
+        </Routes>
+      </Layout>
     </div>
   );
 }

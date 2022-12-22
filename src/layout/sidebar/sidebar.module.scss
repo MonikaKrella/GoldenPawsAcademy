@@ -1,0 +1,25 @@
+@use '/src/style/variables';
+@use '/src/style/colors';
+
+.wrapper {
+  background-color: colors.$grey-0;
+  margin-top: variables.$navbar-height;
+  width: variables.$sidebar-width;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+  .items_container {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+
+    .item {
+      margin-bottom: 2px;
+      padding: 3px 0;
+      border-bottom: 1px solid colors.$grey-1;
+      cursor: pointer;
+    }
+  }
+}

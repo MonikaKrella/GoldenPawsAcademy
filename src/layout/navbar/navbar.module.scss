@@ -1,0 +1,10 @@
+@use '/src/style/variables';
+@use '/src/style/colors';
+
+.container {
+  background-color: colors.$grey-0;
+  border-bottom: 1px solid colors.$grey-1;
+  height: variables.$navbar-height;
+  width: 100%;
+  position: fixed;
+}
