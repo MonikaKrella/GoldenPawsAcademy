@@ -1,0 +1,19 @@
+@use '/src/style/colors';
+
+.container {
+  border: 1px solid colors.$gold-1;
+  border-radius: 4px;
+  background-color: colors.$gold-0;
+  padding: 2px 20px;
+  margin: 6px;
+  padding: 6px;
+  width: 600px;
+  height: fit-content;
+  display: flex;
+
+  .icon {
+    padding: 3px;
+    margin-inline: 4px;
+    color: colors.$gold-2;
+  }
+}
