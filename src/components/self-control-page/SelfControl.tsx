@@ -1,6 +1,6 @@
 import { selfcontrolText } from '../../data/selfcontrol';
 import Step from '../../reusable-components/Step/Step';
-import VideoLink from '../../reusable-components/VideoLink/VideoLink';
+import Video from '../../reusable-components/Video/Video';
 
 const SelfControl = () => {
   return (
@@ -11,7 +11,7 @@ const SelfControl = () => {
       <Step text={selfcontrolText.step1} stepNumber={1} />
       <Step text={selfcontrolText.step2} stepNumber={2} />
       <Step text={selfcontrolText.step3} stepNumber={3} />
-      <VideoLink link="https://youtu.be/GMkHunu-_jo" text="VIDEO" />
+      <Video url="https://www.youtube.com/embed/GMkHunu-_jo" />
     </div>
   );
 };

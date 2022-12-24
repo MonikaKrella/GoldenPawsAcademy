@@ -1,7 +1,7 @@
 import { toyPlayText } from '../../data/toyplay';
 import Step from '../../reusable-components/Step/Step';
 import Tip from '../../reusable-components/Tip/Tip';
-import VideoLink from '../../reusable-components/VideoLink/VideoLink';
+import Video from '../../reusable-components/Video/Video';
 
 const ToyPlay = () => {
   return (
@@ -13,7 +13,7 @@ const ToyPlay = () => {
       <Tip text={toyPlayText.tip1} />
       <Tip text={toyPlayText.tip2} />
       <Tip text={toyPlayText.tip3} />
-      <VideoLink link="https://youtu.be/qkO8RdlISp4" text="VIDEO" />
+      <Video url="https://www.youtube.com/embed/qkO8RdlISp4" />
     </div>
   );
 };
