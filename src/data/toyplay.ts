@@ -1,4 +1,12 @@
 export const toyPlayText = {
   title: 'Zabawa zabawkami z psem',
-  basic: '',
+  basic:
+    'Zabawa zabawkami jest to jedna z form nagrody psa za właściwe wykonanie polecenia. Zabawa polegająca na wymianach jest też wstępem do nauki aportowania, a także wzmacnia motywację do powrotu do właściciela, jak i zwiększa jego atrakcyjność i chęć współpracy. Zabawa powinna być dopasowana do preferencji psa, ale odbywać się na naszych zasadach.',
+  equipment:
+    'Przygotowanie: potrzebne będą dwie takie same lub tak samo wartościowe zabawki, którymi przewodnik będzie w stanie przeciągać się z psem',
+  step1:
+    'Bierzemy do każdej z rąk po jednej zabawce. Mówiąc hasło ŁAP (na zabawę) zachęcamy psa do złapania jednej z zabawek (druga jest nieruchoma w drugiej ręce, możemy na początku schować rękę z nieruchomą zabawką za plecy) - uciekamy zabawką OD PSA, najlepiej szurając po ziemi, możemy podrzucać, zmieniamy często kierunki - celem jest zachęcenie psa do pogoni za zabawką. Gdy pies zaczyna gonić zabawkę, dalej uciekamy zabawką, ale tak, by mógł dogonić ją i złapać w zęby. Gdy złapie zabawkę, chwilę szarpiemy się spokojnie (w przypadku szczeniaków bardzo delikatnie), a następnie po dosłownie chwili robimy wymianę - czyli mówimy znów hasło ŁAP, unieruchamiamy zabawkę, którą pies się aktualnie bawi, i zachęcamy dynamicznie do złapania drugiej zabawki - jeśli była ona schowana w ręce za plecami, to ręka z zabawką nagle "wyskakuje" i nowa zabawka ucieka, zachęcając psa do puszczenia obecnie trzymanej zabawki i pogoni za nową. Jak poprzednio aktywnie zachęcamy do pogoni i złapania, szarpiemy się chwilkę i robimy kolejną wymianę na pierwszą zabawkę w taki sam sposób',
+  tip1: 'Zachęcając psa do pogoni za zabawką warto pamiętać, że goldeny to drapieżniki i psy myśliwskie - wyobraźcie sobie, że zabawka w ręce imituje uciekającą myszkę po polu - nie wchodzi do pyska drapieżnika, a ucieka, zmienia kierunki, próbuje zwodzić i wywieźć goniącego na manowce',
+  tip2: 'Początkowo w jednej sesji zabawy wykonujcie 2-3 wymiany, żeby skończyć w momencie w którym pies jest jeszcze cały czas zainteresowany zabawą i nie zdążył się znudzić. Na zakończenie możecie powiedzieć ZWOLNIENIE i zachęcić psa, żeby wypuścił koniec zabawki i przyszedł do ręki po smakołyk',
+  tip3: 'W przypadku gdy psiak jest nieśmiały / niechętny do łapania - początkowo warto zwalniać do jedzenia już za samą pogoń za zabawką, z czasem może się ośmielić i nakręcić i sam zaoferować łapanie pyskiem zabawki',
 };
