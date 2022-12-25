@@ -1,0 +1,15 @@
+@use '/src/style/colors';
+
+.container {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-inline: 1px solid colors.$grey-1;
+
+  .button {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+  }
+}
