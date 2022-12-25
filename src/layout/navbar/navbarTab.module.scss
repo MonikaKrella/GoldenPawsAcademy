@@ -1,15 +1,21 @@
 @use '/src/style/colors';
 
 .container {
-  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-inline: 1px solid colors.$grey-1;
 
   .button {
     border: none;
-    background-color: inherit;
+    border-radius: 4px;
+    background-color: colors.$grey-0;
     cursor: pointer;
+    height: 100%;
+    padding: 10px;
+    margin: 4px;
+
+    &:hover {
+      background-color: colors.$grey-1;
+    }
   }
 }
