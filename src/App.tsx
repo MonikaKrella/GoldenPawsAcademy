@@ -6,12 +6,14 @@ import Signals from './components/signals-page/Signals';
 import EyeContact from './components/eye-contact-page/EyeContact';
 import ToyPlay from './components/toy-play-page/ToyPlay';
 import Recall from './components/recall-page/Recall';
+import HomePage from './components/home-page/HomePage';
 
 function App() {
   return (
     <div className="App">
       <Layout>
         <Routes>
+          <Route path="/" element={<HomePage />} />
           <Route path="/signals" element={<Signals />} />
           <Route path="/eye-contact" element={<EyeContact />} />
           <Route path="/self-control" element={<SelfControl />} />
