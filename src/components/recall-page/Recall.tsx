@@ -13,6 +13,7 @@ const Recall = () => {
       <p>{recallText.extension2_method2}</p>
       <Tip text={recallText.tip2} />
       <Tip text={recallText.tip3} />
+      <Step text={recallText.method2} stepNumber={2} />
     </div>
   );
 };
