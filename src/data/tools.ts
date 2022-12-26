@@ -1,5 +1,5 @@
 export const toolsText = {
-  title: '"Narzędzia" treningowe',
+  title: 'Pomoce treningowe',
   voice:
     'Głos - szkoląc swoje psy, w celu przekazania im informacji że robią coś dobrze (lub źle) najczęściej używam głosu, jako, że jest on zawsze dostępny. Jako hasła mające konkretne znaczenie wybieram zwykle krótkie, łatwe do wymówienia słowa, których nie używam na codzień "gadając do psów", czy chwaląc je. Jest to o tyle ważne, by hasła bardzo wyraźnie związały się z konkretnym znaczeniem / zachowaniem. Minusem haseł głosowych jest to, że jednak jeśli pies jest mocno pobudzony, mogą niedostatecznie wyróżniać się z gąszcza innych słów, a z drugiej strony te samo słowo wypowiadane w różnych emocjach przewodnika będzie brzmiało inaczej',
   clicker:
