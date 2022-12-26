@@ -8,6 +8,10 @@ export const LayoutData: LayoutModule[] = [
         path: '/signals',
       },
       {
+        title: 'Sesje treningowe',
+        path: '/sessions',
+      },
+      {
         title: 'Kontakt wzrokowy',
         path: '/eye-contact',
       },
@@ -40,6 +44,7 @@ export const LayoutData: LayoutModule[] = [
         title: 'Chodzenie przy nodze',
         path: '/heelwork',
       },
+      { title: 'Siad, waruj, stój', path: '/positions' },
       {
         title: 'Zostawanie',
         path: '/stay',
@@ -101,10 +106,6 @@ export const LayoutData: LayoutModule[] = [
       {
         title: 'Reagowanie na błędy',
         path: '/mistakes',
-      },
-      {
-        title: 'Kary',
-        path: '/punishments',
       },
     ],
   },
