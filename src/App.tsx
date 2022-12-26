@@ -9,7 +9,9 @@ import Recall from './components/recall-page/Recall';
 import HomePage from './components/home-page/HomePage';
 import InBuildPage from './components/in-build-page/InBuildPage';
 import LooseLeash from './components/loose-leash-page/LooseLeash';
-import HeelPosition from './components/heel-position-page/HeelPosition';
+import UpbringingTraining from './components/upbringing-training-page/UpbringingTraining';
+import Tools from './components/tools-page/Tools';
+import Heel from './components/heel-page/Heel';
 
 function App() {
   return (
@@ -18,12 +20,13 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/signals" element={<Signals />} />
+          <Route path="/sessions" element={<InBuildPage />} />
           <Route path="/eye-contact" element={<EyeContact />} />
           <Route path="/self-control" element={<SelfControl />} />
           <Route path="/toy-play" element={<ToyPlay />} />
           <Route path="/recall" element={<Recall />} />
           <Route path="/loose-leash" element={<LooseLeash />} />
-          <Route path="/heel" element={<HeelPosition />} />
+          <Route path="/heel" element={<Heel />} />
           <Route path="/heelwork" element={<InBuildPage />} />
           <Route path="/stay" element={<InBuildPage />} />
           <Route path="/target" element={<InBuildPage />} />
@@ -33,8 +36,8 @@ function App() {
           <Route path="/position-movement" element={<InBuildPage />} />
           <Route path="/stop-run" element={<InBuildPage />} />
           <Route path="/stick" element={<InBuildPage />} />
-          <Route path="/training" element={<InBuildPage />} />
-          <Route path="/tools" element={<InBuildPage />} />
+          <Route path="/training" element={<UpbringingTraining />} />
+          <Route path="/tools" element={<Tools />} />
           <Route path="/rewards" element={<InBuildPage />} />
           <Route path="/mistakes" element={<InBuildPage />} />
           <Route path="/punishments" element={<InBuildPage />} />
