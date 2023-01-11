@@ -14,6 +14,7 @@ import Tools from './components/tools-page/Tools';
 import Heel from './components/heel-page/Heel';
 import TrainingSessions from './components/training-sessions-page/TrainingSessions';
 import Rewards from './components/rewards-page/Rewards';
+import Mistakes from './components/mistakes-page/Mistakes';
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
           <Route path="/training" element={<UpbringingTraining />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/rewards" element={<Rewards />} />
-          <Route path="/mistakes" element={<InBuildPage />} />
+          <Route path="/mistakes" element={<Mistakes />} />
           <Route path="/punishments" element={<InBuildPage />} />
           <Route path="/*" element={<InBuildPage />} />
         </Routes>
