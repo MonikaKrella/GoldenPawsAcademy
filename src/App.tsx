@@ -12,6 +12,9 @@ import LooseLeash from './components/loose-leash-page/LooseLeash';
 import UpbringingTraining from './components/upbringing-training-page/UpbringingTraining';
 import Tools from './components/tools-page/Tools';
 import Heel from './components/heel-page/Heel';
+import TrainingSessions from './components/training-sessions-page/TrainingSessions';
+import Rewards from './components/rewards-page/Rewards';
+import Mistakes from './components/mistakes-page/Mistakes';
 
 function App() {
   return (
@@ -20,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/signals" element={<Signals />} />
-          <Route path="/sessions" element={<InBuildPage />} />
+          <Route path="/sessions" element={<TrainingSessions />} />
           <Route path="/eye-contact" element={<EyeContact />} />
           <Route path="/self-control" element={<SelfControl />} />
           <Route path="/toy-play" element={<ToyPlay />} />
@@ -38,8 +41,8 @@ function App() {
           <Route path="/stick" element={<InBuildPage />} />
           <Route path="/training" element={<UpbringingTraining />} />
           <Route path="/tools" element={<Tools />} />
-          <Route path="/rewards" element={<InBuildPage />} />
-          <Route path="/mistakes" element={<InBuildPage />} />
+          <Route path="/rewards" element={<Rewards />} />
+          <Route path="/mistakes" element={<Mistakes />} />
           <Route path="/punishments" element={<InBuildPage />} />
           <Route path="/*" element={<InBuildPage />} />
         </Routes>
