@@ -14,6 +14,12 @@ const Rewards = () => {
       <Step text={rewardsText.foodText2} stepNumber={2} />
       <Tip text={rewardsText.tipFood2} />
       <Textbox title={rewardsText.toysTitle} text={''} />
+      <Step text={rewardsText.toysText} stepNumber={1} />
+      <Textbox title={rewardsText.socialTitle} text={''} />
+      <Step text={rewardsText.socialText} stepNumber={1} />
+      <Tip text={rewardsText.socialTip} />
+      <Textbox title={rewardsText.environmentTitle} text={''} />
+      <Step text={rewardsText.environmentText} stepNumber={1} />
     </div>
   );
 };
