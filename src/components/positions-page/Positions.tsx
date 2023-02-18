@@ -7,6 +7,9 @@ const Positions = () => {
     <div>
       <PageTitle title={positionsText.title} />
       <Textbox text={positionsText.intro} />
+      <Textbox title={positionsText.sitTitle} text={positionsText.sitText} />
+      <Textbox title={positionsText.downTitle} text={positionsText.downText} />
+      <Textbox title={positionsText.stayTitle} text={positionsText.stayText} />
     </div>
   );
 };

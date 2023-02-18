@@ -54,8 +54,8 @@ export const LayoutData: LayoutModule[] = [
         path: '/target',
       },
       {
-        title: 'Bieg do nieruchomej zabawki',
-        path: '/run-to-toy',
+        title: 'Wysyłanie na przedmiot',
+        path: '/platform',
       },
     ],
   },
@@ -65,10 +65,6 @@ export const LayoutData: LayoutModule[] = [
       {
         title: 'Omijanie',
         path: '/round',
-      },
-      {
-        title: 'Wysyłanie na przedmiot',
-        path: '/platform',
       },
       {
         title: 'Pozycje na odległość',
@@ -85,6 +81,10 @@ export const LayoutData: LayoutModule[] = [
       {
         title: 'Wyszukiwanie przedmiotu',
         path: '/stick',
+      },
+      {
+        title: 'Bieg do nieruchomej zabawki',
+        path: '/run-to-toy',
       },
     ],
   },
