@@ -15,6 +15,7 @@ import Heel from './components/heel-page/Heel';
 import TrainingSessions from './components/training-sessions-page/TrainingSessions';
 import Rewards from './components/rewards-page/Rewards';
 import Mistakes from './components/mistakes-page/Mistakes';
+import Heelwork from './components/heelwork-page/Heelwork';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <Route path="/recall" element={<Recall />} />
           <Route path="/loose-leash" element={<LooseLeash />} />
           <Route path="/heel" element={<Heel />} />
-          <Route path="/heelwork" element={<InBuildPage />} />
+          <Route path="/heelwork" element={<Heelwork />} />
           <Route path="/stay" element={<InBuildPage />} />
           <Route path="/target" element={<InBuildPage />} />
           <Route path="/run-to-toy" element={<InBuildPage />} />
