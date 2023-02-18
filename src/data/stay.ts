@@ -1,0 +1,12 @@
+export const stayText = {
+  title: 'Zostawanie',
+  intro:
+    'Zostawanie to pochodna samokontroli i umiejętności "zamrażania" się psa w danej pozycji. To, co dodajemy w nauce stricte zostawania, to wydłużanie czasu pozostawania w nadanej pozycji oraz odstawienie ręki-gestu samokontroli. Choć znaczenie zostawania jest dość oczywiste - kilka moich z życia wziętych przykładów: siad-zostań przed wiatą śmietnikową, gdy idę wyrzucić śmieci i nie chcę ryzykować zjedzenia przez psa czegoś leżącego na ziemi. Siad zostań gdy muszę poprzekładać rzeczy w samochodzie i przydadzą się dwie ręce zamiast jednej trzymającej psa',
+  step1:
+    'Fundamentem jest tutaj samokontrola - i pierwsze kroki w nauce zostawania to nauka samokontroli (patrz - fundamenty -> samokontrola). Gdy pies rozumie już że otwarta ręka oznacza zamrożenie się, zaczynamy wydłużać dystans na jaki odchodzimy od psa i czas między kolejnymi smakołykami. Uwaga! Pilnujemy zasady jedno kryterium na raz - jeśli odchodzimy dalej, to na początku szybko do psa wracamy. Natomiast jeśli chcemy wydłużać przerwy między kolejnymi smakołykami - ustawiamy się blisko psa, na odległości w której umie już pozostawać w pozycji',
+  step2:
+    'Następnie dodajemy odchodzenie w bok - jest to kolejne nowe kryterium, wobec czego wracamy znów do częstych smakołyków i początkowo niewielkiej odległości od psa (zaczynając nawet od 1-2 kroków w prawo / prawo-tył / lewo / lewo-tył) trzymając rękę blisko pyska i szybko nagradzając po przemieszczeniu się',
+  step3:
+    'Na koniec warto dodawać po kolei różne rozproszenia - a to mówimy w przestrzeń "Dzień dobry", a to odwracamy się tyłem do psa, podnosimy coś z ziemi, kładziemy coś na ziemi, chowamy się za coś żeby pies nas nie widział - im więcej rzeczy przerobimy tym bardziej niezawodne będzie zostawanie. Wprowadzając każde nowe rozproszenie warto ułatwiać psu zadanie nagradzając często i za niewielkie sukcesy stopniowo wydłużając czas np chowania się poza widokiem psa, lub intensywność (np początkowo kładziemy nic nie znaczący przedmiot by pod koniec rzucać w stronę psa jego ulubioną zabawkę',
+  tip: 'Ćwicząc samokontrolę i zostawanie w proces nauki wpisane jest zrywanie z przyjętej pozyji - bardzo istotne jest jak będziemy na to reagować i jak zmodyfikujemy ćwiczenie. Warto po błędzie ułatwić psu zadanie, nagradzać częściej, wzmacniając prawidłowe zachowanie, a następnie spróbować stworzyć mniejsze kroczki prowadzące do poziomu, w którym wystąpiło zerwanie psa z pozycji',
+};
