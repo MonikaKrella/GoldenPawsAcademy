@@ -15,6 +15,11 @@ import Heel from './components/heel-page/Heel';
 import TrainingSessions from './components/training-sessions-page/TrainingSessions';
 import Rewards from './components/rewards-page/Rewards';
 import Mistakes from './components/mistakes-page/Mistakes';
+import Heelwork from './components/heelwork-page/Heelwork';
+import HandTarget from './components/hand-target-page/HandTarget';
+import Stay from './components/stay-page/Stay';
+import Positions from './components/positions-page/Positions';
+import RunToToy from './components/run-to-toy-page/RunToToy';
 
 function App() {
   return (
@@ -30,10 +35,11 @@ function App() {
           <Route path="/recall" element={<Recall />} />
           <Route path="/loose-leash" element={<LooseLeash />} />
           <Route path="/heel" element={<Heel />} />
-          <Route path="/heelwork" element={<InBuildPage />} />
-          <Route path="/stay" element={<InBuildPage />} />
-          <Route path="/target" element={<InBuildPage />} />
-          <Route path="/run-to-toy" element={<InBuildPage />} />
+          <Route path="/heelwork" element={<Heelwork />} />
+          <Route path="/positions" element={<Positions />} />
+          <Route path="/stay" element={<Stay />} />
+          <Route path="/target" element={<HandTarget />} />
+          <Route path="/run-to-toy" element={<RunToToy />} />
           <Route path="/round" element={<InBuildPage />} />
           <Route path="/platform" element={<InBuildPage />} />
           <Route path="/position-movement" element={<InBuildPage />} />

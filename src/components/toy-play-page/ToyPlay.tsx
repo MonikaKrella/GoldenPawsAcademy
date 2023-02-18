@@ -15,6 +15,7 @@ const ToyPlay = () => {
       <Tip text={toyPlayText.tip3} />
       <Step text={toyPlayText.step2} stepNumber={2} />
       <Step text={toyPlayText.step3} stepNumber={3} />
+      <Video url="https://www.youtube.com/embed/ObNwQZZzBJU" />
       <Video url="https://www.youtube.com/embed/qkO8RdlISp4" />
     </div>
   );

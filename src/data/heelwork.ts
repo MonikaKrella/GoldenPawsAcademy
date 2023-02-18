@@ -1,0 +1,11 @@
+export const heelworkText = {
+  pageTitle: 'Chodzenie przy nodze',
+  intro:
+    'Chodzenie przy nodze traktuję jako ćwiczenie - nie jest to rozszerzenie chodzenia na luźnej smyczy (patrz: Fundamenty -> Luźna smycz), ale może również pomóc w poprawie chodzenia na smyczy. Celem ćwiczenia jest nauczenie psa podążania blisko lewej nogi, podczas którego pies ma być skupiony na przewodniku, dopasowywać tempo, reagować na zwroty przewodnika by cały czas być tuż obok nogi.',
+  basic:
+    'Chodzenia przy nodze można nauczyć na wiele sposobów, zwykle najskuteczniejsze jest mieszanie wielu, które pozwala psu na zrozumienie o co nam chodzi z różnych kierunków',
+  step1:
+    'Naukę chodzenia przy nodze zwykle zaczynam od nauczenia psa poruszania się z jednoczesnym utrzymywaniem kontaktu wzrokowego. Gdy pies ma opanowane nawiązywanie kontaktu wzrokowego (Fundamenty -> kontakt wzrokowy), zaczynam wprowadzać ruch do ćwiczenia. Pies znajduje się przed przewodnikiem, przewodnik wydaje hasło na kontakt wzrokowy, mówi POTWIERDZENIE i nagradza psa za nawiązanie kontaktu wzrokowego. Następnie ponownie powtarzając hasło na kontakt wzrokowy robi wolny, teatralny krok w tył zachęcając psa do podążania za przewodnikiem. Jeśli pies ruszy i będzie się patrzył na twarz przewodnika - od razu mówimy ZWOLNIENIE, i uciekamy ze smakołykiem w tył (chcemy psa jeszcze bardziej uruchomić i rozruszać). Jeśli pies ruszy, ale nie patrzy, zachęcamy go do spojrzenia na twarz powoli robiąc kolejne kroki w tył - można podsunąć smakołyk pod nos a następnie przesunąć go w stronę twarzy, pokazać zabawkę, zaklaskać, zawołać - jak tylko pies podniesie głowę i spojrszy na przewodnika od razu ZAWALNIAMY (do smakołyka lub zabawki), uciekając ale trzymając rękę nieco wyżej by psiak musiał zadrzeć głowę do góry. Jeśli pies patrzy się, a nie chce ruszyć - zachęcamy go dynamicznie do ruszenia w naszą stronę - drobnymi kroczkami truchtając powolutku do tyłu, klaszcząc w dłonie, w kolana, cmokając - kiedy tylko pies ruszy ZWALNIAMY go i uciekamy z nagrodą',
+  step1_tip:
+    'Nauka początkowych kroków zajmuje zwykle najwięcej czasu, warto uzbroić się w cierpliwość, motywację, wyznaczyć jak najdrobniejsze kroczki i spokojnie psu tłumaczyć czego oczekujemy - im dokładniej pies zrozumie ideę początkowych kroków, tym szybciej i poprawniej nastąpi dalszy rozwój',
+};
