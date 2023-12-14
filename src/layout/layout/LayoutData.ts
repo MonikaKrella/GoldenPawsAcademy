@@ -109,4 +109,17 @@ export const LayoutData: LayoutModule[] = [
       },
     ],
   },
+  {
+    navbarTitle: 'Dummy',
+    sidebarData: [
+      {
+        title: 'Dummy',
+        path: '/dummy',
+      },
+      {
+        title: 'Gwizdek stój',
+        path: '/stop-whistle',
+      }
+    ]
+  }
 ];
