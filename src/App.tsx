@@ -20,6 +20,9 @@ import HandTarget from './components/hand-target-page/HandTarget';
 import Stay from './components/stay-page/Stay';
 import Positions from './components/positions-page/Positions';
 import RunToToy from './components/run-to-toy-page/RunToToy';
+import Platform from './components/platform-page/Platform';
+import DummyIntro from './components/dummy-page/DummyIntro';
+import StopWhistle from './components/dummy-page/StopWhistle';
 
 function App() {
   return (
@@ -41,7 +44,7 @@ function App() {
           <Route path="/target" element={<HandTarget />} />
           <Route path="/run-to-toy" element={<RunToToy />} />
           <Route path="/round" element={<InBuildPage />} />
-          <Route path="/platform" element={<InBuildPage />} />
+          <Route path="/platform" element={<Platform />} />
           <Route path="/position-movement" element={<InBuildPage />} />
           <Route path="/stop-run" element={<InBuildPage />} />
           <Route path="/stick" element={<InBuildPage />} />
@@ -50,6 +53,8 @@ function App() {
           <Route path="/rewards" element={<Rewards />} />
           <Route path="/mistakes" element={<Mistakes />} />
           <Route path="/punishments" element={<InBuildPage />} />
+          <Route path="/dummy" element={<DummyIntro />} /> 
+          <Route path="/stop-whistle" element={<StopWhistle />} />
           <Route path="/*" element={<InBuildPage />} />
         </Routes>
       </Layout>
