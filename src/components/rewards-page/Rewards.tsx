@@ -1,13 +1,14 @@
-import { rewardsText } from '../../data/rewards';
 import PageTitle from '../../reusable-components/PageTitle/PageTitle';
 import Step from '../../reusable-components/Step/Step';
 import Textbox from '../../reusable-components/Textbox/Textbox';
 import Tip from '../../reusable-components/Tip/Tip';
+import { rewardsText } from '../../data/rewards';
 
 const Rewards = () => {
   return (
     <div>
       <PageTitle title={rewardsText.title} />
+      <p>{rewardsText.intro}</p>
       <Textbox title={rewardsText.foodTitle} text={''} />
       <Step text={rewardsText.foodText} stepNumber={1} />
       <Tip text={rewardsText.tipFood} />

@@ -1,4 +1,5 @@
 import { LayoutModule } from './../../types/layout-data';
+
 export const LayoutData: LayoutModule[] = [
   {
     navbarTitle: 'Fundamenty',
@@ -8,8 +9,20 @@ export const LayoutData: LayoutModule[] = [
         path: '/signals',
       },
       {
+        title: 'Nagrody',
+        path: '/rewards',
+      },
+      {
+        title: 'Narzędzia',
+        path: '/tools',
+      },
+      {
         title: 'Sesje treningowe',
         path: '/sessions',
+      },
+      {
+        title: 'Reagowanie na błędy',
+        path: '/mistakes',
       },
       {
         title: 'Kontakt wzrokowy',
@@ -23,26 +36,18 @@ export const LayoutData: LayoutModule[] = [
         title: 'Zabawa',
         path: '/toy-play',
       },
-      {
-        title: 'Przywołanie',
-        path: '/recall',
-      },
-      {
-        title: 'Luźna smycz',
-        path: '/loose-leash',
-      },
     ],
   },
   {
     navbarTitle: 'Podstawy',
     sidebarData: [
       {
-        title: 'Dostawienie do nogi',
-        path: '/heel',
+        title: 'Przywołanie',
+        path: '/recall',
       },
       {
-        title: 'Chodzenie przy nodze',
-        path: '/heelwork',
+        title: 'Dostawienie do nogi',
+        path: '/heel',
       },
       { title: 'Siad, waruj, stój', path: '/positions' },
       {
@@ -56,6 +61,14 @@ export const LayoutData: LayoutModule[] = [
       {
         title: 'Wysyłanie na przedmiot',
         path: '/platform',
+      },
+      {
+        title: 'Luźna smycz',
+        path: '/loose-leash',
+      },
+      {
+        title: 'Chodzenie przy nodze',
+        path: '/heelwork',
       },
     ],
   },
@@ -89,27 +102,6 @@ export const LayoutData: LayoutModule[] = [
     ],
   },
   {
-    navbarTitle: 'Podejście',
-    sidebarData: [
-      {
-        title: 'Wychowanie a szkolenie',
-        path: '/training',
-      },
-      {
-        title: 'Narzędzia',
-        path: '/tools',
-      },
-      {
-        title: 'Nagrody',
-        path: '/rewards',
-      },
-      {
-        title: 'Reagowanie na błędy',
-        path: '/mistakes',
-      },
-    ],
-  },
-  {
     navbarTitle: 'Dummy',
     sidebarData: [
       {
@@ -119,7 +111,7 @@ export const LayoutData: LayoutModule[] = [
       {
         title: 'Gwizdek stój',
         path: '/stop-whistle',
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];
