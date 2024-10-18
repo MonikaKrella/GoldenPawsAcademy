@@ -1,6 +1,6 @@
 export const recallText = {
   title: 'Przywołanie',
-  basic:
+  intro:
     'Przywołanie to jedna z najprzydatniejszych umiejętności psa. Psa z dobrze wypracowanym przywołaniem można puszczać luzem w licznych miejscach, bez obaw, że uciekając mógłby zrobić coś sobie, lub krzywdę innej istocie. Nie ma co ukrywać - niezawodne przywołanie nie jest łatwe do nauczenia, wymaga bardzo wielu powtórzeń, poświęconego czasu, cierpliwości i często testowania metod, która jest najskuteczniejsza w przypadku naszego psa',
   puppy:
     'Większość szczeniąt naturalnie i samoistnie podąża za człowiekiem i chce być w jego pobliżu, warto wykorzystać ten czas za budowanie pierwszych nawyków. Chodząc na spacery w bezpieczne miejsca (las, plaża, łąki) - warto w przypadku, gdy szczeniak zagalopuje się i odbiegnie, chować się za drzewami itp, by zmotywować psa do poszukiwań przewodnika, i częstszego pilnowania się. Ponadto warto w różnych losowych momentach (ale nie wtedy, gdy widzimy że sytuacja / rozproszenia są zbyt trudne np. nadbiegający psi kumple) przywoływać psa, jednocześnie uciekając w drugą stronę - by budować u psa nawyk jak najszybszego powrotu gdy usłyszy, że jest wołany (trzeba szybko biec bo człowiek będzie uciekał). W każdym przypadku, gdy pies znajdzie się koło nas (czy to znajdzie nas schowanych, czy wołamy go i przybiegnie, czy przybiegnie z własnej inicjatywy - warto bardzo entuzjastycznie go chwalić, nagrodzić tym co lubi',

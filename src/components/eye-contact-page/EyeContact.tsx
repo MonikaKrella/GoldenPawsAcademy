@@ -1,12 +1,12 @@
-import { eyeContactText } from '../../data/eye-contact';
 import Step from '../../reusable-components/Step/Step';
 import Video from '../../reusable-components/Video/Video';
+import { eyeContactText } from '../../data/eye-contact';
 
 const EyeContact = () => {
   return (
     <div>
       <h2>{eyeContactText.title}</h2>
-      <p>{eyeContactText.basic}</p>
+      <p>{eyeContactText.intro}</p>
       <Step text={eyeContactText.step1} stepNumber={1} />
       <Step text={eyeContactText.step2} stepNumber={2} />
       <Step text={eyeContactText.step3} stepNumber={3} />

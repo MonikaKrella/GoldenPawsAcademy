@@ -1,6 +1,6 @@
 export const eyeContactText = {
   title: 'Kontakt wzrokowy',
-  basic:
+  intro:
     'Kontakt wzrokowy jest podstawą dobrej współpracy z psem. Pies który zwraca na przewodnika uwagę, koncentruje się na nim z większą pewnością wykona następne komendy. Jest to szczególnie ważny element treningu u szczeniaczków i psów na początku szkolenia, kiedy nie mają jeszcze wyrobionych nawyków związanych z treningiem i codzienną współpracą. Celem ćwiczenia jest nauczenie psa na hasło (zazwyczaj imię) patrzenia się na twarz (docelowo aż do zwolnienia, zarówno w statyce jak i w ruchu).',
   step1:
     'Krok pierwszy: Stajemy naprzeciwko psa. Pies może być w dowolnej pozycji. Skupiamy się tylko na 1 kryterium - kontakcie wzrokowym. Przygotowujemy sobie do obu rąk po 2-3 smakołyki. Następnie jedną ręką podstawiamy psu pod pyszczek smakołyk, gdy zainteresuje się, ręką ze smakołykiem podążamy do swojego nosa, jednocześnie wypowiadając imię psa. Kiedy tylko pies spojrzy się na twarz, od razu mówimy POTWIERDZENIE i pies dostaje smakołyk z ręki, która pokazywała na twarz. Gdy tylko zje powtarzamy to samo drugą ręką, i następnie na zmianę raz lewą raz prawą ręką. Gdy zostanie ostatni smakołyk w ręce, po tym jak pies nawiąże kontakt wzrokowy mówimy ZWOLNIENIE i rękę opuszczamy, i odsuwamy od psa, tak by musiał wstać do jedzenia',
